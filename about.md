@@ -12,7 +12,7 @@ permalink: /about/
 
   In 2016 I received MSc degree in Control and Robotics from the department of Control and Robotics at Opole University of Technology.  
 
-  Currently I am a PhD student at the department of Control and Robotics under the guidance of Prof. Ryszard Beniak (OUTech). My research interests are focused on Modeling Identification and Control in Industrial Plants (Buzzwords: Industrie 4.0, ML).
+  Currently I am a PhD student at the department of Control and Robotics under the guidance of Prof. Ryszard Beniak (OUTech). My research interests are focused on Model Identification and Control in Industrial Plants (Buzzwords: Industrie 4.0, ML).
 
   At spare time I do 3d printing and salsa dancing.
 

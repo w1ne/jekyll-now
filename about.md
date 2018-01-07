@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am Andrii Shylenko, Embedded Software Engineer and PhD student at Opole University of Technology.
 
-### More Information
+### About me
 
-A place to include any other types of information that you'd like to include about yourself.
+I received BcS and MSc in Helicopter and Aircraft Construction, National Airspace University, Kharkiv, Ukraine in 2014, and 2014 respectively. 
 
-### Contact me
+In 2016 I received MSc degree in Control and Robotics from the department of Electrical, Control and Computer Engineering at Opole University of Technology.  
 
-[email@domain.com](mailto:email@domain.com)
+Currently I am a PhD student at the department of Control and Robotics under the guidance of Prof. Ryszard Beniak (OUTech). My research interests are focused on Modeling Identification and Control in Industrial Plants (Buzzwords: Industrie 4.0, ML).
+
+At spare time I do 3d printing and salsa dancing.
+
+### Contact information
+[andrii@shylenko.com](mailto:andrii@shylenko.com)
+
+I tweet occasionally @andriishylenko. 

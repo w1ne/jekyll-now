@@ -5,7 +5,7 @@ permalink: /about/
 ---
 My name is Andrii Shylenko and I am Embedded Software Engineer at [ifm ecolink](https://www.ifm.com) and PhD student at [Opole University of Technology(OUTech)](http://www.po.opole.pl).
 
-This blog is about my work and study. Under the [Teaching](http://n1n3.net/teaching/) section contains course materials for my teaching practice at OUTech.
+This blog is about my work and study. [Teaching](http://n1n3.net/teaching/) section contains course materials for my teaching practice at OUTech.
 
 ### About me
 

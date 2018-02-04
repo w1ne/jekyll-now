@@ -19,8 +19,10 @@ At spare time I do 3d printing and salsa dancing.
 
 ### Contact information
 [andrii@shylenko.com](mailto:andrii@shylenko.com)
+
 I tweet occasionally [@andriishylenko](https://twitter.com/AndriiShylenko)
 
 ### Secure communication
 [PGP public key for secure communication](/publickey/)
+
 [Cryptographic chain of trust](https://keybase.io/shylenko)

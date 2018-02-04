@@ -18,7 +18,7 @@ Currently I continue my education and research as a PhD student at the departmen
 At spare time I do 3d printing and salsa dancing.
 
 ### Contact information
-You can reach me via e-mail:[andrii@shylenko.com](mailto:andrii@shylenko.com)
+You can reach me via [e-mail](mailto:andrii@shylenko.com)
 
 I tweet occasionally [@andriishylenko](https://twitter.com/AndriiShylenko)
 

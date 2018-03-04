@@ -14,7 +14,7 @@ ls -la /dev/ttyUSB0
 crw-rw---- 1 root dialout 188, 0 Mar  4 20:35 /dev/ttyUSB0
 ```
 Device is owned by root and read and write permissions are granted for the `dialout` group.
-The solution is add your user to correct groups:
+The solution is to add your user to correct groups:
 1. Run in terminal `sudo usermod -a -G dialout %username%`.
 *Current user groups can be checked with `groups` command.*
 2. Log off and login again to apply group changes. 

@@ -5,7 +5,7 @@ blogid: personal
 ---
 
 I am using [SourceRabbit G-code sender](https://www.sourcerabbit.com/) to control my "Miyazaki" drawing bot.
-Drawing bot is using [CP2102](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2102) chip as a Virtual com port bridge between USB and control application.
+The robot is using [CP2102](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2102) chip as a virtual com port bridge between USB and control application.
 Unfortunately it isn't working out of the box in OpenSuse. 
 USB-to-serial converter is mounted as `/dev/ttyUSB0`, with following rights:
 

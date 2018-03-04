@@ -22,4 +22,4 @@ The solution is add your user to correct groups:
 e.g. `java -jar "SourceRabbit-GCODE-Sender.jar"`
 4. SourceRabbit G-code Sender is now working with CP2102 adapter.
 
-![SourceRabbit G-code Sender]({{ site.baseurl }}/images/img/04-03-2018/SourceRabbit-G-code-Sender.png)
+![SourceRabbit G-code Sender]({{"/images/img/04-03-2018/SourceRabbit-G-code-Sender.png"|absolute_url}})

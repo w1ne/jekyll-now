@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make Linux work with USB-to-serail adapter
+title: How to make Linux work with USB-to-serial
 blogid: personal
 ---
 
@@ -20,5 +20,4 @@ The solution is add your user to correct groups:
 2. Log off and login again to apply group changes. 
 3. Run application which is using USB-to-serial adapter, e.g. `java -jar "SourceRabbit-GCODE-Sender.jar"`
 4. SourceRabbit G-code Sender is now working with CP2102 adapter.
-![SourceRabbit G-code Sender](/img/SourceRabbit-G-code-Sender.png){:class="img-responsive"}
-
+![SourceRabbit G-code Sender]({{BASE_PATH}}/images/img/04-03-2018/SourceRabbit-G-code-Sender.png)

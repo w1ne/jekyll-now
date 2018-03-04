@@ -19,6 +19,7 @@ The solution is add your user to correct groups:
 *Current user groups can be checked with `groups` command.*
 2. Log off and login again to apply group changes. 
 3. Run application which is using USB-to-serial adapter,
+
 e.g. `java -jar "SourceRabbit-GCODE-Sender.jar"`
 4. SourceRabbit G-code Sender is now working with CP2102 adapter.
 

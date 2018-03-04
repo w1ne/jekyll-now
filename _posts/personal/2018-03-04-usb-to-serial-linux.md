@@ -21,5 +21,5 @@ The solution is add your user to correct groups:
 3. Run application which is using USB-to-serial adapter, e.g. `java -jar "SourceRabbit-GCODE-Sender.jar"`
 4. SourceRabbit G-code Sender is now working with CP2102 adapter.
 
-![SourceRabbit G-code Sender](/img/SourceRabbit-G-code Sender.png "SourceRabbit G-code Sender")
+![SourceRabbit G-code Sender](/img/SourceRabbit-G-code-Sender.png "SourceRabbit G-code Sender")
 

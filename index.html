@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-   {% if post.blogid != 'personal' %}
+   {% if post.blogid != 'personal' | where_exp:"item", "item.sticky == true" %}
     {% else %}
     <article class="post">
 
@@ -18,4 +18,21 @@ layout: default
     </article>
     {% endif %}
   {% endfor %}
+  
+  {% for post in site.posts %}
+   {% if post.blogid != 'personal' | where_exp:"item", "item.sticky == false" %}
+    {% else %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+    {% endif %}
+  {% endfor %}
+  
 </div>

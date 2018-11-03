@@ -2,6 +2,7 @@
 layout: post
 title: How to make Linux work with USB-to-serial
 blogid: personal
+sticky: false
 ---
 
 I am using [SourceRabbit G-code sender](https://www.sourcerabbit.com/) to control my "Miyazaki" drawing bot.

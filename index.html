@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts | where_exp:'post', 'post.sticky == false' %}
+  {% assign posts_not_sticky = site.posts | where_exp:'post', 'post.sticky == false' %}
+  {% for post in posts_not_sticky %}
    {% if post.blogid != 'personal' %}
     {% else %}
     <article class="post">

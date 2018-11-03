@@ -4,7 +4,7 @@ title: The quest for Mozart
 blogid: BadWriting
 ---
 
-Two weeks and no tickets,  
+Two weeks and no tickets,   
 Call the box-office, online selling is closed.  
 There is always a reward,  
 For someone who is stubborn and focused,  
@@ -24,12 +24,12 @@ Pulling the hair behind left ear.
 Following trousers of the director,  
 Woman in black, the evening seer,  
 She sets the mood of the crowd.  
-
-Subtle soprano note,  
+  
+Subtle soprano note,   
 From a nightingale inside my chest,  
 Locked up, deaf and dumbfounded,  
 in black soundbreaker triangles nest,  
-
+  
 Nightingale is suffocating,  
 In allowed permissions doom.  
 Open the chest at night dating,  

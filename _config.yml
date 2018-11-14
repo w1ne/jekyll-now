@@ -35,7 +35,8 @@ footer-links:
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
-
+    shortname: shylenko-com
+    
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
@@ -89,10 +90,4 @@ exclude:
 collections:
   - important
   
-  # Disqus Comments
-disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: shylenko-com
-
 theme: jekyll-theme-architect

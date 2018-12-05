@@ -20,7 +20,7 @@ For the first build Nutrient Film Technique system was choosen as easy to make a
 
 Part list for simple NFT system is listed below
 
-Mechanic components:
+Mechanical components:
 
 | N | Component               | Amount | Description                       | Price, pln  | Link
 |---|-------------------------|--------|-----------------------------------|--------|------

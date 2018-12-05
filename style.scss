@@ -260,6 +260,18 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
+	
+  table th {
+	border:1px;
+	solid #dfe2e5;
+	padding:6px 13px
+  }
+  
+  table tr {
+	background-color:#fff;
+	border-top:1px; 
+	solid #c6cbd1;
+  }
 
   .comments {
     margin-top: 10px;
@@ -289,16 +301,6 @@ footer {
     display: block;
 }
 
-table th {
-	border:1px;
-	solid #dfe2e5;
-	padding:6px 13px
-}
-table tr {
-	background-color:#fff;
-	border-top:1px; 
-	solid #c6cbd1;
-}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

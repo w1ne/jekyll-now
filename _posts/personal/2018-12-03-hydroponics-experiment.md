@@ -15,13 +15,19 @@ The goal of the experiment is to gain knowledge in the how far I can go in autom
 
 This post will contain a build log for indoor hydroponics system.
 
-For the first build Nutrient Film Technique system was choosen as easy to make and effective deign.  
+For the first build Nutrient Film Technique system was choosen as easy to make and effective design.  
 # NFT system design
 
 Part list for simple NFT system is listed below
 
-| N | Component               | Amount | Description | Price  | Link
-|---|-------------------------|--------|-------------|--------|------
+Mechanic components:
+| N | Component               | Amount | Description                       | Price  | Link
+|---|-------------------------|--------|-----------------------------------|--------|------
 | 1 | Air channel 1000x55x100 | 2      | Not very suitable for water, left from other projects |        |
-| 2 | Air channel cap         | 4      |             |        |
-| 3 | Flowerpot 0.5L          | 30     |             |        |
+| 2 | Air channel cap         | 4      |                                   |        |
+| 3 | Flowerpot 0.5L          | 30     |                                   |        |
+| 4 | Ceramsite               |        |                                   |        |
+| 5 | Hose                    |        |Diameter TBD, depends on the  pump |        |
+
+Electronic
+

@@ -29,6 +29,7 @@ Mechanic components:
 | 4 | Ceramsite               |        |                                   |        |
 | 5 | Hose                    |        |Diameter TBD, depends on the  pump |        |
 
+
 Electronic components
 
 | N | Component               | Amount | Description                       | Price, pln | Link

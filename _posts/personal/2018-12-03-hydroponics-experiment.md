@@ -21,7 +21,7 @@ For the first build Nutrient Film Technique system was choosen as easy to make a
 Part list for simple NFT system is listed below
 
 Mechanic components:
-| N | Component               | Amount | Description                       | Price  | Link
+| N | Component               | Amount | Description                       | Price, pln  | Link
 |---|-------------------------|--------|-----------------------------------|--------|------
 | 1 | Air channel 1000x55x100 | 2      | Not very suitable for water, left from other projects |        |
 | 2 | Air channel cap         | 4      |                                   |        |
@@ -29,5 +29,12 @@ Mechanic components:
 | 4 | Ceramsite               |        |                                   |        |
 | 5 | Hose                    |        |Diameter TBD, depends on the  pump |        |
 
-Electronic
+Electronic components
+
+| N | Component               | Amount | Description                       | Price, pln | Link
+|---|-------------------------|--------|-----------------------------------|------------|------
+| 1 | Hsbao HSB-333 pump      | 1      | Cheap, but powerfull enough for simple system. Just to get strarted. | 20       |
+
+
+
 

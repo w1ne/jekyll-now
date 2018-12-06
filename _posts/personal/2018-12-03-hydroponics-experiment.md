@@ -6,7 +6,7 @@ sticky: false
 tags: [hydroponics, build log]
 ---
 
-As part of my letter trend of organic diet I am starting an experiment on the hydroponics growing. The ability to be self suficient and eat own grown food is futuristic but in the same time old as human kind.
+As part of my later trend of organic diet I am starting an experiment on the hydroponics growing. The ability to be self suficient and eat own grown food is futuristic but in the same time old as a human kind.
 
 We are the information and food we consume. Hydroponics is an easy way to tweak nutrients in the food as well as taste, chemical contents, growing perfomance. 
 

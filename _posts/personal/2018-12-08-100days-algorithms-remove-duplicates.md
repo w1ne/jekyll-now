@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Algorithms series: remove duplicates[draft]
+title: Algorithms series: remove duplicates(draft)
 blogid: personal
 sticky: false
+published: false
 tags: [100 days of code, algorithms, training, c]
 ---
 C code bits to remove duplicates

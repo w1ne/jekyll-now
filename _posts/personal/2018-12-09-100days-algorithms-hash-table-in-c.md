@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Algorithms series: Hash table implementation in c[draft]
+title: Algorithms series: Hash table implementation in c(draft)
 blogid: personal
 sticky: false
+published: false
 tags: [100 days of code, algorithms, training, hash table, c]
 ---
 Implementation of the hash table data structure in c. Object oriented way.

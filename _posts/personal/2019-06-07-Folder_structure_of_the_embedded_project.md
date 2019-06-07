@@ -15,8 +15,7 @@ I am trying to keep alike structure for embedded projects at works and home.
 
 General idea is to have abstraction hierarchical levels:
 
-
-![SourceRabbit G-code Sender]({{"/images/img/04-03-2018/1.png"|relative_url}}){: .left-image }
+![Hierarchical structure]({{"/images/img/2019-06-07/Vsod4b4.png"|relative_url}}){: .left-image }
 
 1. On the bottom hardware (HW) layer is located. The level with processor registers access, memory, IRQ, peripherals. CMSIS connects HW with CUBE MX library by providing definitions and human readable names for registers memory mapping.
 2. CUBE MX HAL implements universal API for usage of processor peripherals. 
@@ -25,7 +24,7 @@ General idea is to have abstraction hierarchical levels:
 
 In practice, the following unified folder structure was shaped to reflect hierarchical dependency(from eclipse project explorer):
 
-![SourceRabbit G-code Sender]({{"/images/img/04-03-2018/1.png"|relative_url}}){: .left-image }
+![Folder structure]({{"/images/img/2019-06-07/general_architecture.PNG"|relative_url}}){: .left-image }
 
 Application folder contains code for device logic.
 BSP 

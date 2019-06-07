@@ -14,7 +14,7 @@ My challenge was to integrate shift register port expanders with clear separatio
 There are two possibilities to toggle a GPIO port:
      via SIPO registers, using bsp module responsible for data transfer. 
      via MCU GPIO, using interfaces provided by CubeMX.
-'''
+```C
 typedef enum hal_gpio_index_e
 {
 SupplyVoltageMonitor,
@@ -71,7 +71,7 @@ static const port_init_t PortInit[] = {
 [ DebugPin1 ] = { GPIOA, { GPIO_Pin_15, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_UP }, PinUndefined },
 
 };
-'''
+```
 https://gcc.gnu.org/onlinedocs/gcc-4.3.2/gcc/Compound-Literals.html
 
 In (ANSI) C99, you can use a designated initializer to initialize a structure:
@@ -79,7 +79,8 @@ MY_TYPE a = { .flag = true, .value = 123, .stuff = 0.456 };
 Other members are initialized as zero: "Omitted field members are implicitly initialized the same as objects that have static storage duration." (https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html)
 
 ... abstracts hardware layers from software implementation:
-'''
+
+```c
 typedef struct port_conf
 {
 /* for "traditional" MCU pins */
@@ -130,7 +131,7 @@ LOCAL const port_conf_t PinConf[] =
 [ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port },
 [ LedUAR ] = { .GPIOPin = LED_R_Pin, .GPIOPort = LED_R_GPIO_Port },
 };
-'''
+```
 
 Advantages of the solution:
 + All GPIO ports are visible to application layer as same GPIO objects. 

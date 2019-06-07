@@ -17,15 +17,15 @@ There are two possibilities to toggle a GPIO port:
 ```C
 typedef enum hal_gpio_index_e
 {
-     /* DigitalOutputX means number of the output in circuit diagram. It is
-     * different than symbol of the output on the front panel of the device. */
-     DigitalOutput1,
-     DigitalOutput2,
-     Led1,
-     Led2,
-     UnusedPin1 ,
-     UnusedPin2 ,
-     NumberOfGPIO
+  /* DigitalOutputX means number of the output in circuit diagram. It is
+   * different than symbol of the output on the front panel of the device. */
+   DigitalOutput1,
+   DigitalOutput2,
+   Led1,
+   Led2,
+   UnusedPin1 ,
+   UnusedPin2 ,
+   NumberOfGPIO
 } hal_gpio_index_et;
 
 
@@ -34,9 +34,9 @@ typedef enum hal_gpio_index_e
 /*!\brief Structure used to initialize microcontroller inputs and outputs. */
 typedef struct port_init
 {
-     GPIO_TypeDef *GPIO_Port; /*!< Port */
-     GPIO_InitTypeDef GPIO_InitStructure; /*!< Pin, speed and mode */
-     pin_init_value_et PinInitValue; /*!< Initial pin value */
+   GPIO_TypeDef *GPIO_Port; /*!< Port */
+   GPIO_InitTypeDef GPIO_InitStructure; /*!< Pin, speed and mode */
+   pin_init_value_et PinInitValue; /*!< Initial pin value */
 } port_init_t;
 //!@}
 
@@ -45,11 +45,11 @@ static const port_init_t PortInit[] = {
 /* Index Port Pin Mode Speed Output type Pull-up/Pull down Init value Pin activation state*/
 
 /* Digital outputs of the device with their power supplies and input signals used to check short circuit or overload. */
-[ DigitalOutput1 ] = { GPIOC, { GPIO_Pin_2, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
-[ DigitalOutput2 ] = { GPIOA, { GPIO_Pin_5, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
+[DigitalOutput1] = { GPIOC, { GPIO_Pin_2, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
+[DigitalOutput2] = { GPIOA, { GPIO_Pin_5, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
 
-[ Led1 ] = { GPIOA, { GPIO_Pin_12, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
-[ Led2 ] = { GPIOC, { GPIO_Pin_10, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
+[Led1] = { GPIOA, { GPIO_Pin_12, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
+[Led2] = { GPIOC, { GPIO_Pin_10, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
 };
 ```
 https://gcc.gnu.org/onlinedocs/gcc-4.3.2/gcc/Compound-Literals.html

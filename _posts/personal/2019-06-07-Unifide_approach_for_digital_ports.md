@@ -17,25 +17,15 @@ There are two possibilities to toggle a GPIO port:
 ```C
 typedef enum hal_gpio_index_e
 {
-SupplyVoltageMonitor,
-
-ExternalWatchdog,
-
-/* DigitalOutputX means number of the output in circuit diagram. It is
-* different than symbol of the output on the front panel of the device. */
-DigitalOutput1,
-DigitalOutput2,
-DigitalOutput3,
-
-Led1,
-Led2,
-
-
-UnusedPin1 ,
-UnusedPin2 ,
-UnusedPin3 ,
-
-NumberOfGPIO
+     /* DigitalOutputX means number of the output in circuit diagram. It is
+     * different than symbol of the output on the front panel of the device. */
+     DigitalOutput1,
+     DigitalOutput2,
+     Led1,
+     Led2,
+     UnusedPin1 ,
+     UnusedPin2 ,
+     NumberOfGPIO
 } hal_gpio_index_et;
 
 
@@ -44,10 +34,9 @@ NumberOfGPIO
 /*!\brief Structure used to initialize microcontroller inputs and outputs. */
 typedef struct port_init
 {
-GPIO_TypeDef *GPIO_Port; /*!< Port */
-GPIO_InitTypeDef GPIO_InitStructure; /*!< Pin, speed and mode */
-pin_init_value_et PinInitValue; /*!< Initial pin value */
-
+     GPIO_TypeDef *GPIO_Port; /*!< Port */
+     GPIO_InitTypeDef GPIO_InitStructure; /*!< Pin, speed and mode */
+     pin_init_value_et PinInitValue; /*!< Initial pin value */
 } port_init_t;
 //!@}
 
@@ -59,17 +48,8 @@ static const port_init_t PortInit[] = {
 [ DigitalOutput1 ] = { GPIOC, { GPIO_Pin_2, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
 [ DigitalOutput2 ] = { GPIOA, { GPIO_Pin_5, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
 
-/* Errors */
-[ SCLPin ] = { GPIOB, { GPIO_Pin_0, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_DOWN }, PinUndefined },
-[ SCRPin ] = { GPIOA, { GPIO_Pin_0, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_DOWN }, PinUndefined },
-[ UVLPin ] = { GPIOC, { GPIO_Pin_4, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_DOWN }, PinUndefined },
-[ UVRPin ] = { GPIOA, { GPIO_Pin_1, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_DOWN }, PinUndefined },
-
 [ Led1 ] = { GPIOA, { GPIO_Pin_12, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
 [ Led2 ] = { GPIOC, { GPIO_Pin_10, GPIO_Mode_OUT, GPIO_Speed_10MHz, GPIO_OType_PP, GPIO_PuPd_NOPULL }, PinLow },
-
-[ DebugPin1 ] = { GPIOA, { GPIO_Pin_15, GPIO_Mode_IN, GPIO_Speed_10MHz, GPIO_OType_OD, GPIO_PuPd_UP }, PinUndefined },
-
 };
 ```
 https://gcc.gnu.org/onlinedocs/gcc-4.3.2/gcc/Compound-Literals.html
@@ -96,36 +76,10 @@ LOCAL const port_conf_t PinConf[] =
 /* SIPO Leds */
 [ LedPort0_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port0 },
 [ LedPort0_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port0 },
-[ LedPort1_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port1 },
-[ LedPort1_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port1 },
-[ LedPort2_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port2 },
-[ LedPort2_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port2 },
-[ LedPort3_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port3 },
-[ LedPort3_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port3 },
-[ LedPort4_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port4 },
-[ LedPort4_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port4 },
-[ LedPort5_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port5 },
-[ LedPort5_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port5 },
-[ LedPort6_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port6 },
-[ LedPort6_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port6 },
-[ LedPort7_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port7 },
-[ LedPort7_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port7 },
-[ LedPort8_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port8 },
-[ LedPort8_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port8 },
-[ LedPort9_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port9 },
-[ LedPort9_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port9 },
 
 /*SIPO ports */
 [ Power_EN_port0 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port0 },
 [ Power_EN_port1 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port1 },
-[ Power_EN_port2 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port2 },
-[ Power_EN_port3 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port3 },
-[ Power_EN_port4 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port4 },
-[ Power_EN_port5 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port5 },
-[ Power_EN_port6 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port6 },
-[ Power_EN_port7 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port7 },
-[ Power_EN_port8 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port8 },
-[ Power_EN_port9 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port9 },
 
 /* GPIO Leds */
 [ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port },

@@ -73,17 +73,17 @@ const uint8_t SIPOPortByte; /*!< Port byte in SIPO buffer */
 
 LOCAL const port_conf_t PinConf[] =
 {
-/* SIPO Leds */
-[ LedPort0_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port0 },
-[ LedPort0_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port0 },
+ /* SIPO Leds */
+ [ LedPort0_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port0 },
+ [ LedPort0_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port0 },
 
-/*SIPO ports */
-[ Power_EN_port0 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port0 },
-[ Power_EN_port1 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port1 },
+ /*SIPO ports */
+ [ Power_EN_port0 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port0 },
+ [ Power_EN_port1 ] = { .SIPOBit = SIPO_BIT_PORTPOW_EN, .SIPOPortByte = bsp_ports_Port1 },
 
-/* GPIO Leds */
-[ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port },
-[ LedUAR ] = { .GPIOPin = LED_R_Pin, .GPIOPort = LED_R_GPIO_Port },
+ /* GPIO Leds */
+ [ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port },
+ [ LedUAR ] = { .GPIOPin = LED_R_Pin, .GPIOPort = LED_R_GPIO_Port },
 };
 ```
 

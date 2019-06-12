@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-![Andrii Shylenko]({{"/images/img/me.jpg"|relative_url}})
+| ![Andrii Shylenko]({{"/images/img/me.jpg"|relative_url}}) | My name is Andrii Shylenko.
+This blog is about Embedded Software development from the proof of concept to the manufacturing phase, books, robots, writing and other topics I am fascinated with. |
 
-My name is Andrii Shylenko.
-This blog is about Embedded Software development from the proof of concept to the manufacturing phase, books, robots, writing and other topics I am fascinated with.
+
+
 
 ### About me
 

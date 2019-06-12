@@ -9,7 +9,7 @@ permalink: /about/
 
 ### About me
 
-As an R&D engeneer at [ifm ecolink](https://www.ifm.com) I have a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link. 
+As an R&D engineer at [ifm ecolink](https://www.ifm.com) I have a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link. 
 At spare time I do 3d printing, salsa dancing, massage therapy and public speaking.
 
 ### Contact information

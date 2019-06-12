@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img align="right" "src="/images/img/me.jpg">
+<img align="right" "src="/images/img/me.jpg"/>
 My name is Andrii Shylenko.
 This blog is about Embedded Software development from the proof of concept to the manufacturing phase, books, robots, writing and other topics I am fascinated with. 
 

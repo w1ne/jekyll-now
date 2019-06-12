@@ -7,6 +7,8 @@ permalink: /about/
 <img style="float: left;" src="/images/img/me.jpg" > My name is Andrii Shylenko. This blog is about Embedded Software development from the proof of concept to the manufacturing phase, books, robots, writing and other topics I am fascinated with.
 
 
+
+
 ### About me
 
 As an R&D engeneer at [ifm ecolink](https://www.ifm.com) I have a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link. 

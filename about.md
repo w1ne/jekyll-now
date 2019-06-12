@@ -22,17 +22,17 @@ Application Engineer at ifm ecolinc R&D department, where he developed PLC softw
 Embedded Software Engineer at ifm ecolinc R&D department, where he is creating Industrial IoT devices.
 
 ## Education
-National Aerospace University “KhAI”, Kharkov, Ukraine(2007-2013).
+National Aerospace University “KhAI”, Kharkov.
 Master's degree in Aircrafts and helicopters structure and design.
 
-Opole University of Technology, Opole, Poland(2014-2015).
+Opole University of Technology, Opole.
 Master's degree. Control systems in automatics and robotics.
 
 
 # Contact information
-You can reach Andrii via [e-mail](mailto:andrii@shylenko.com)
+The best way to reach Andrii is via [e-mail](mailto:andrii@shylenko.com)
 
-He tweet occasionally [@andriishylenko](https://twitter.com/AndriiShylenko)
+He tweets occasionally [@andriishylenko](https://twitter.com/AndriiShylenko)
 
 [Linkedin profile](https://www.linkedin.com/in/andrewshylenko/)
 

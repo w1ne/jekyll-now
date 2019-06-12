@@ -3,24 +3,23 @@ layout: page
 title: About
 permalink: /about/
 ---
-My name is Andrii Shylenko and I am Embedded Software Engineer at [ifm ecolink](https://www.ifm.com) and PhD student at [Opole University of Technology(OUTech)](http://www.po.opole.pl).
 
-This blog is about my work and study. [Teaching](http://n1n3.net/teaching/) section contains course materials for my teaching practice at OUTech.
+![Andrii Shylenko]({{"/images/img/me.jpg"|relative_url}})
+
+My name is Andrii Shylenko.
+This blog is about Embedded Software development from the proof of concept to the manufacturing phase, books, robots, writing and other topics I am fascinated with.
 
 ### About me
 
-I received BcS and MSc in Helicopter and Aircraft Manufacturing, [National Aerospace University](https://www.khai.edu/), Kharkiv, Ukraine in 2014 and 2014, respectively. 
-
-In 2016 I received MSc degree in Control and Robotics from the department of Control and Robotics at Opole University of Technology.  
-
-Currently I continue my education and research as a PhD student at the department of Control and Robotics under the guidance of Prof. Ryszard Beniak (OUTech). My research interests are focused on Model Identification and Control in Industrial Plants (Buzzwords: Industrie 4.0, ML).
-
-At spare time I do 3d printing and salsa dancing.
+As an R&D engeneer at [ifm ecolink](https://www.ifm.com) I have a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link. 
+At spare time I do 3d printing, salsa dancing, massage therapy and public speaking.
 
 ### Contact information
 You can reach me via [e-mail](mailto:andrii@shylenko.com)
 
 I tweet occasionally [@andriishylenko](https://twitter.com/AndriiShylenko)
+
+[Linkedin profile](https://www.linkedin.com/in/andrewshylenko/)
 
 ### Secure communication
 [PGP public key](/publickey/)

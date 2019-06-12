@@ -10,7 +10,7 @@ permalink: /about/
 
 As an R&D engineer at [ifm ecolink](https://www.ifm.com) Andrii Shylenko has a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link.
 
-At spare time he build 3d printers, dances salsa, learns the art of massage therapy and public speaking.
+At spare time he builds 3d printers, dances salsa, learns the art of massage therapy and public speaking.
 
 Andrii has gathered a diverse listing of education and work experiences. Among them:
 ## Professional expiriences

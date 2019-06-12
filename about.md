@@ -17,9 +17,9 @@ Andrii has gathered a diverse listing of education and work experiences. Among t
 
 Structural Design Engineer for strength calculations (FEM) of the aircraft fuselage at Antonov State Company.
 
-Application Engineer at ifm ecolinc R&D department, where he developed PLC software (IEC 61131-3, ST, FBD) with GUI (Codesys).
+Application Engineer at ifm ecolink R&D department, where he developed PLC software (IEC 61131-3, ST, FBD) with GUI (Codesys).
 
-Embedded Software Engineer at ifm ecolinc R&D department, where he is creating Industrial IoT devices.
+Embedded Software Engineer at ifm ecolink R&D department, where he is creating Industrial IoT devices.
 
 ## Education
 National Aerospace University “KhAI”, Kharkov.

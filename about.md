@@ -10,6 +10,8 @@ permalink: /about/
 
 As an R&D engineer at [ifm ecolink](https://www.ifm.com) Andrii Shylenko has a lot of experience in the research and design of industry projects based on the core technology of the Industrial IoT, IO-Link.
 
+At spare time he build 3d printers, dances salsa, learns the art of massage therapy and public speaking.
+
 Andrii has gathered a diverse listing of education and work experiences. Among them:
 ## Professional expiriences
 
@@ -20,13 +22,12 @@ Application Engineer at ifm ecolinc R&D department, where he developed PLC softw
 Embedded Software Engineer at ifm ecolinc R&D department, where he is creating Industrial IoT devices.
 
 ## Education
-National Aerospace University “KhAI”, Kharkov, Ukraine(2007-2013)
+National Aerospace University “KhAI”, Kharkov, Ukraine(2007-2013).
 Master's degree in Aircrafts and helicopters structure and design.
 
-Opole University of Technology, Opole, Poland(2014-2015)
+Opole University of Technology, Opole, Poland(2014-2015).
 Master's degree. Control systems in automatics and robotics.
 
-At spare time he build 3d printers, dances salsa, learns the art of massage therapy and public speaking.
 
 # Contact information
 You can reach Andrii via [e-mail](mailto:andrii@shylenko.com)

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img style="float: left; padding-left: 0px; padding-bottom: 10px; padding-right: 20px;" src="/images/img/me.jpg" > Welcome to Andrii Shylenko personal website (← Yes, it is me). This blog is about topics I am fascinated with: Embedded Software development from the proof of concept to the manufacturing phase, as well as [books](https://n1n3.net/BooksNotes), robots and communication skills.
+<img style="float: left; padding-left: 0px; padding-bottom: 10px; padding-right: 20px;" src="/images/img/me.jpg" > Welcome to Andrii Shylenko personal website (← Yes, it is me). This blog is about topics Andrii is fascinated with: Embedded Software development from the proof of concept to the manufacturing phase, as well as [books](https://n1n3.net/BooksNotes), robots and communication skills.
 
 ### About
 

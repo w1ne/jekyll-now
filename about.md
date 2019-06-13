@@ -22,10 +22,10 @@ Application Engineer at ifm ecolink R&D department, where he developed PLC softw
 Embedded Software Engineer at ifm ecolink R&D department, where he is creating Industrial IoT devices.
 
 ## Education
-National Aerospace University “KhAI”, Kharkov.
+National Aerospace University “KhAI”.
 Master's degree in Aircrafts and helicopters structure and design.
 
-Opole University of Technology, Opole.
+Opole University of Technology.
 Master's degree. Control systems in automatics and robotics.
 
 

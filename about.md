@@ -12,8 +12,9 @@ As an R&D engineer at [ifm ecolink](https://www.ifm.com) Andrii Shylenko has a l
 
 At spare time he builds 3d printers, dances salsa, learns the art of massage therapy and public speaking.
 
-Andrii has gathered a diverse listing of education and work experiences. Among them:
-## Professional expiriences
+Andrii has gathered a diverse listing of education and work background.
+
+## Professional expirience
 
 Structural Design Engineer for strength calculations (FEM) of the aircraft fuselage at Antonov State Company.
 
@@ -22,6 +23,7 @@ Application Engineer at ifm ecolink R&D department, where he developed PLC softw
 Embedded Software Engineer at ifm ecolink R&D department, where he is creating Industrial IoT devices.
 
 ## Education
+
 National Aerospace University “KhAI”.
 Master's degree in Aircrafts and helicopters structure and design.
 

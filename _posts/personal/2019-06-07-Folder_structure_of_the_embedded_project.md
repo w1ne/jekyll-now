@@ -8,7 +8,7 @@ tags: [HAL, Cube MX, folder, structure, c]
 ---
 In this short post I want to discuss organisation of the code for STM CUBE MX HAL generated projects.
 
-Why do wee need folder structure at all? 
+Why do we need folder structure at all? 
 Certainly, one can put all source files in one folder. For small projects it will work. But with growing complexity single folder mess becomes troublesome. 
 It is much better idea to have separate containers(folders in eclipse) for code on similar abstraction level, as well as functionality.
 The modular approach to the embedded project keeps code organized and manageable.

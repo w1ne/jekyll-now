@@ -3,7 +3,8 @@ layout: post
 title: Folder structure of the embedded project
 blogid: personal
 sticky: false
-published: false
+published: true
+tags: [HAL, Cube MX, folder, structure, c]
 ---
 In this short post I want to discuss organisation of the code for STM CUBE MX HAL generated projects.
 
@@ -26,13 +27,13 @@ In practice, the following unified folder structure was shaped to reflect hierar
 
 ![Folder structure]({{"/images/img/2019-06-07/general_architecture.PNG"|relative_url}}){: .left-image }
 
-Application folder contains code for device logic.
-BSP 
-Core, Drivers, sturtup folders are created by CubeMX. Core - prerpherials initialization, main.c, interrupts.
-Drivers CMSIS, HAL drivers. 
-lib contains all the libraries used by application.
-libmodel provides adjustments of the library for the project (e.g. implementation of interfaces)
-libdef configures library, e.g. defines.
+- Application folder contains code for device logic.
+- BSP or board support package, with all bsp interfaces.
+- Core, Drivers, Sturtup folders are created by CubeMX. Core - prerpherials initialization, main.c, interrupts.
+- Drivers CMSIS, HAL drivers. 
+- lib contains all the libraries used by application.
+- libmodel provides adjustments of the library for the project (e.g. implementation of interfaces)
+- libdef configures library, e.g. defines.
 
 Such way of code organisation is easy to navigate, expand and understand.
 Definition of the project structure is important point for clean code standard.

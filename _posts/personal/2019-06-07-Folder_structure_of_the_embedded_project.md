@@ -16,7 +16,7 @@ I am trying to keep alike structure for embedded projects at works and home.
 
 General idea is to have abstraction hierarchical levels:
 
-![Hierarchical structure]({{"/images/img/2019-06-07/Vsod4b4.png"|relative_url}}){: .left-image }
+![Hierarchical structure]({{"/images/img/2019-06-07/Vsod4b4.png"|relative_url}}){: .center-image }
 
 1. On the bottom hardware (HW) layer is located. The level with processor registers access, memory, IRQ, peripherals. CMSIS connects HW with CUBE MX library by providing definitions and human readable names for registers memory mapping.
 2. CUBE MX HAL implements universal API for usage of processor peripherals. 

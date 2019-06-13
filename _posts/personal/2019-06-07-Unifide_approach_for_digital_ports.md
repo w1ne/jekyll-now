@@ -38,13 +38,13 @@ Therefore SIPO pin
 ```c
 static const port_conf_t PinConf[] =
 {
-/* SIPO Leds */
-[ LedPort0_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port0, .GPIOPin = PORT_NA, .GPIOPort = PORT_NA },
-[ LedPort0_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port0, .GPIOPin = PORT_NA, .GPIOPort = PORT_NA },
+     /* SIPO Leds */
+     [ LedPort0_pin2 ] = { .SIPOBit = SIPO_BIT_POS_LED_P2, .SIPOPortByte = bsp_ports_Port0, .GPIOPin = PORT_NA, .GPIOPort = PORT_NA },
+     [ LedPort0_pin4 ] = { .SIPOBit = SIPO_BIT_POS_LED_P4, .SIPOPortByte = bsp_ports_Port0, .GPIOPin = PORT_NA, .GPIOPort = PORT_NA },
 
-/* GPIO Leds */
-[ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port, .SIPOBit = PORT_NA, .SIPOPortByte = PORT_NA },
-[ LedUAR ] = { .GPIOPin = LED_R_Pin, .GPIOPort = LED_R_GPIO_Port, .SIPOBit = PORT_NA, .SIPOPortByte = PORT_NA },
+     /* GPIO Leds */
+     [ LedUAL ] = { .GPIOPin = LED_L_Pin, .GPIOPort = LED_L_GPIO_Port, .SIPOBit = PORT_NA, .SIPOPortByte = PORT_NA },
+     [ LedUAR ] = { .GPIOPin = LED_R_Pin, .GPIOPort = LED_R_GPIO_Port, .SIPOBit = PORT_NA, .SIPOPortByte = PORT_NA },
 };
 ```
 

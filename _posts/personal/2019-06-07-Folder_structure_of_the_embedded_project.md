@@ -14,7 +14,7 @@ It is much better idea to have separate containers(folders in eclipse) for code 
 The modular approach to the embedded project keeps code organized and manageable.
 I am trying to keep alike structure for embedded projects at works and home.
 
-General idea is to have abstraction hierarchical levels:
+General idea is to devide project in abstracted hierarchical levels:
 
 ![Hierarchical structure]({{"/images/img/2019-06-07/Vsod4b4.png"|relative_url}}){: .center-image }
 

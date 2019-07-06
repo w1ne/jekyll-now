@@ -18,12 +18,12 @@ avatar: https://n1n3.net/images/logoAS_blue_white.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: andrii@shylenko.com
+  email:
   facebook:
   flickr:
   github: w1ne
   instagram:
-  linkedin: https://www.linkedin.com/in/andrewshylenko/
+  linkedin: andrewshylenko
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: andriishylenko

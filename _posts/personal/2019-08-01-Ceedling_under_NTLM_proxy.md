@@ -9,12 +9,13 @@ tags: [Ceedling, proxy, Windows, TDD, c]
 [Ceedling](http://www.throwtheswitch.org/ceedling) is the build system for C based projects. Ceedling combines CMock, Unity, and CException in one open source package for producing quality C code.
 The first step to use Ceedling is to install it.
 
+
 # Problem description
 
 Ceedling documentation lists following command for installation (after installing Ruby):
 gem install ceedling
 
-After a lot of trial,  looks like RubyGems is not able to pick up proxy on mine corporate Win7 machine.
+After a lot of trial, looks like RubyGems is not able to pick up proxy on mine corporate Win7 machine.
 
 ![407 "Proxy Authorization Required"]({{"/images/img/2019-08-01/407_error.png"|relative_url}}){: .center-image }
 

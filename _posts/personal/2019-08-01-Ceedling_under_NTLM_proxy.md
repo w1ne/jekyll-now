@@ -29,11 +29,11 @@ All the commands above give:
 407 "Proxy Authorization Required"
 ```
 
-Setting environment variables via command line
+Setting environment variables via command line,
 ```
-set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
-set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
-set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
+set HTTP_PROXY=PROXY_URL
+set HTTP_NAME=USERNAME
+set HTTP_PASSWORD=PASSWORD
 ```
 results in the same error.
 

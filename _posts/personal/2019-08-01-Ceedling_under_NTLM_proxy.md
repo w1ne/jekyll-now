@@ -9,7 +9,7 @@ tags: [Ceedling, proxy, Windows, TDD, c]
 [Ceedling](http://www.throwtheswitch.org/ceedling) is the build system for C based projects. Ceedling combines CMock, Unity, and CException in one open source package for producing quality C code.
 The first step to use Ceedling is to install it.
 
-Problem description
+# Problem description
 
 Ceedling documentation lists following command for installation (after installing Ruby):
 gem install ceedling
@@ -36,9 +36,9 @@ set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 ````
 results in the same error as well.
 
-Solution
+# Solution
 
-[Fast and simple solution] (https://stackoverflow.com/questions/4418/how-do-i-update-ruby-gems-from-behind-a-proxy-isa-ntlm/4431) is to use local proxy, e.g. Fiddler. it does not require configuration and works out of the box.:  
+[Fast and simple solution](https://stackoverflow.com/questions/4418/how-do-i-update-ruby-gems-from-behind-a-proxy-isa-ntlm/4431) is to use local proxy, e.g. Fiddler. it does not require configuration and works out of the box.:  
 Install and run [Fiddler](www.fiddler2.com).
 Run gem:
 ````

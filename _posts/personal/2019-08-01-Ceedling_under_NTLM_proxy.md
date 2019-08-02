@@ -20,30 +20,31 @@ After a lot of trial, looks like RubyGems is not able to pick up proxy on mine c
 ![407 Proxy Authorization Required]({{"/images/img/2019-08-01/407_error.png"|relative_url}}){: .center-image }
 
 What have been tested:
-````
+```
 gem install ceedling -p http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 gem install ceedling --http-proxy=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
-````
+```
 All the commands above give:
-````
+```
 407 "Proxy Authorization Required"
-````
+```
 
 Setting environment variables via command line
-````
+```
 set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
-````
+```
 results in the same error.
 
 # Solution
 
 [Fast and simple solution](https://stackoverflow.com/questions/4418/how-do-i-update-ruby-gems-from-behind-a-proxy-isa-ntlm/4431) is to use local proxy, e.g. Fiddler. it does not require configuration and works out of the box.:  
-1. Install and run [Fiddler](www.fiddler2.com).
+1. Install and run [Fiddler](https://www.fiddler2.com).
 2. Run RubyGems:
-````
+```
 $ gem install --http-proxy http://localhost:8888 GEM_NAME_
-````
+```
+
 RubyGems does not work behind NTLM proxy used in many companies. Currently there is no elegant way to bypass it natively, without using local proxies.
 

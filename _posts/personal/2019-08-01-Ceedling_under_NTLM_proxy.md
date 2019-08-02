@@ -17,7 +17,7 @@ gem install ceedling
 
 After a lot of trial, looks like RubyGems is not able to pick up proxy on mine corporate Win7 machine.
 
-![407 "Proxy Authorization Required"]({{"/images/img/2019-08-01/407_error.png"|relative_url}}){: .center-image }
+![407 Proxy Authorization Required]({{"/images/img/2019-08-01/407_error.png"|relative_url}}){: .center-image }
 
 What have been tested:
 ````

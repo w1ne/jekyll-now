@@ -39,10 +39,10 @@ results in the same error.
 # Solution
 
 [Fast and simple solution](https://stackoverflow.com/questions/4418/how-do-i-update-ruby-gems-from-behind-a-proxy-isa-ntlm/4431) is to use local proxy, e.g. Fiddler. it does not require configuration and works out of the box.:  
-Install and run [Fiddler](www.fiddler2.com).
-Run gem:
+1. Install and run [Fiddler](www.fiddler2.com).
+2. Run RubyGems:
 ````
-$ gem install --http-proxy http://localhost:8888 $gem_name
+$ gem install --http-proxy http://localhost:8888 GEM_NAME_
 ````
 RubyGems does not work behind NTLM proxy used in many companies. Currently there is no elegant way to bypass it natively, without using local proxies.
 

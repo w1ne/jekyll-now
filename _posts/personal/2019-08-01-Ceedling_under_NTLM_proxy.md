@@ -34,7 +34,7 @@ set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 set HTTP_PROXY=http://USERNAME:PASSWORD@PROXY_URL:PROXY_PORT
 ````
-results in the same error as well.
+results in the same error.
 
 # Solution
 

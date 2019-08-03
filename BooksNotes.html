@@ -7,7 +7,7 @@ layout: default
   {% assign posts_sticky = site.posts | where_exp:'post', 'post.sticky == true' %}
   
    {% for post in posts_sticky %}
-   {% if post.blogid != 'personal' %}
+   {% if post.blogid != 'BooksNotes' %}
     {% else %}
     <article class="post">
 
@@ -22,18 +22,16 @@ layout: default
   {% endfor %}
   
   {% for post in posts_not_sticky %}
-   {% if post.blogid != 'personal' %}
+   {% if post.blogid != 'BooksNotes' %}
     {% else %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        
         {% if page.feature-img %}
             <img class="feature-image" src={{ page.feature-img }} alt="Post Feature Image"/>
         {% endif %}
-        
         {{ post.excerpt }}
       </div>
 

@@ -4,9 +4,9 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
+  
   <div class="entry">
-    {{ content | reading_time }}
+    {{ reading_time | content }}
   </div>
 
   <div class="date">

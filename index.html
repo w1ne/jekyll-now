@@ -34,7 +34,7 @@ layout: default
             <img class="feature-image" src={{ page.feature-img }} alt="Post Feature Image"/>
         {% endif %}
         
-        {{ post.excerpt }}
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">...</a>
       </div>
     </article>
